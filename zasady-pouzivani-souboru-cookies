@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,0.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,0.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}
+</style><style>.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
+</style><link type="text/css" rel="stylesheet" href="./Carboland/css"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
+</style><style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+<title>Zásady používání souborů cookies</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="keywords" content="Carboland, Carboland s.r.o., Společnost Carboland, Firma Carboland, Uhlíkové vlákno, Výroba z Karbonu, karbon výroba, Carbon, Fibre, Carbon Fibre, Karbon, Karbonové, Karbonové výrobky, Výrobky z Karbonu, Práce na Karbonu, Karbonové Vlákno, Composit, Kevlar, Aramid, Vacuum infusion, carboland.cz, Carboland CZ, Carboland výroba, Carboland s.r.o., Carboland sro, Česká republika, výroba z karbonu v České republice, uhlíkové vlákno Česká republika, výroba ČR, výroba, uhlík, Carbon určený pro tebe, vysoká odolnost, odolnost výrobku, carbon odolnost" />
+<meta name="distribution" content="global" />
+<meta name="application-name" content="Zásady používání souborů cookies" />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow, snippet, archive" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+<meta name="publisher" content="Carboland s.r.o." />
+<meta name="og:phone_number" content="+420 732 272 375" />
+<meta name="og:email" content="info@carboland.cz" />
+<meta name="subject" content="Carboland s.r.o." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Zásady používání souborů cookies" />
+<meta name="twitter:image:src" content="https://www.carboland.cz/Carboland/Carboland.jpg" />
+<meta name="coverage" content="Česká republika" />
+<meta property="og:title" content="Zásady používání souborů cookies" />
+<meta property="og:url" content="https://www.carboland.cz/zasady-pouzivani-souboru-cookies" />
+<meta property="og:site_name" content="Zásady používání souborů cookies" />
+<meta property="og:type" content="website" />
+<meta property="article:tag" content="Carboland, Carboland s.r.o., Společnost Carboland, Firma Carboland, Uhlíkové vlákno, Výroba z Karbonu, karbon výroba, Carbon, Fibre, Carbon Fibre, Karbon, Karbonové, Karbonové výrobky, Výrobky z Karbonu, Práce na Karbonu, Karbonové Vlákno, Composit, Kevlar, Aramid, Vacuum infusion, carboland.cz, Carboland CZ, Carboland výroba, Carboland s.r.o., Carboland sro, Česká republika, výroba z karbonu v České republice, uhlíkové vlákno Česká republika, výroba ČR, výroba, uhlík, Carbon určený pro tebe, vysoká odolnost, odolnost výrobku, carbon odolnost" />
+<meta property="og:image" content="https://www.carboland.cz/Carboland/Carboland.jpg" />
+<meta property="og:latitude" content="49.14654840589657" />
+<meta property="og:longitude" content="17.82768260268157" />
+<meta property="og:street-address" content="Sehradice 217" />
+<meta property="og:locality" content="Sehradice" />
+<meta property="og:postal-code" content="763 23" />
+<meta property="og:country-name" content="Česká republika" />
+<link rel="icon" href="./Carboland/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="./Carboland/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/menu.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/style.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/style1.css" id="colors" />
+<link rel="stylesheet" type="text/css" href="./Carboland/animation.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/owl.carousel.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="canonical" href="https://www.carboland.cz/zasady-pouzivani-souboru-cookies" />
+<link rel="alternate" href="https://www.carboland.cz/zasady-pouzivani-souboru-cookies" hreflang="cs-cz" />
+<link rel="alternate" href="https://www.carboland.de/cookie-richtlinie" hreflang="de-de" />
+<link rel="alternate" href="https://www.carboland.at/cookie-richtlinie" hreflang="de-at" />
+<link rel="alternate" href="https://www.carboland.eu/cookies-policy" hreflang="en-gb" />
+<link rel="alternate" href="https://www.carboland.ru/politika-ispolzovaniya-faylov-cookie" hreflang="ru-ru" />
+<link rel="alternate" href="https://www.carboland.sk/zasady-pouzivania-suborov-cookie" hreflang="sk-sk" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179574748-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-179574748-1');
+</script>
+</head>
+<body oncopy="return false" oncut="return false" oncontextmenu="return false">
+<script type="text/javascript">
+var cpm = {};
+(function(h,u,b){
+var d=h.getElementsByTagName("script")[0],e=h.createElement("script");
+e.async=true;e.src='./Carboland/cookie-consent.js';
+e.onload=function(){u.cookiehub.load(b);};
+d.parentNode.insertBefore(e,d);
+})(document,window,cpm);
+</script>
+<div class="loder" style="display: none;">
+<div class="cssload-container">
+<div class="cssload-circle-1">
+<div class="cssload-circle-2">
+<div class="cssload-circle-3">
+<div class="cssload-circle-4">
+<div class="cssload-circle-5">
+<div class="cssload-circle-6">
+<div class="cssload-circle-7">
+<div class="cssload-circle-8">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper">
+<header id="header" style="background: rgba(0, 0, 0, 0); padding: 20px 0px;">
+<div class="header navbar">
+<div class="container-fluid">
+<div id="navbarCollapse" class="navbar-collapse navbar-right">
+<!-- Menu Nav !-->
+</div>
+</div>
+</div>
+</header>
+<section id="podminky-pouziti" class="ptb_100">
+<div class="about">
+<div class="container">
+<div class="about-inner">
+<div class="row">
+<div class="col-md-7">
+<div class="about-text">
+<div class="about-heading-wrap">
+<br/>
+<h2 class="about-heading mb_40 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none; text-transform: uppercase;">Cookies</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="container pb_100">
+<div class="row">
+<div class="col-md-6 col-md-offset-3 text-center">
+<div class="heading-part">
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Zásady používání souborů cookies</h2>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Provozovatelem internetových stránek <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a> je <a href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1002958&typ=UPLNY" target="_blank">Carboland s.r.o.</a>, spisová značka: C 104458 Krajský soud v Brně, IČO: 06818137, DIČ: CZ06818137, se sídlem <a href="https://www.google.cz/maps/place/Sehradice+217,+763+23+Sehradice/@49.1465221,17.8254644,17z/data=!3m1!4b1!4m5!3m4!1s0x4713706cec52a5b3:0xaff658778cd89a17!8m2!3d49.1465186!4d17.8276531?hl=cs" target="_blank">Sehradice 217, 763 23 Sehradice, Česká republika</a>.</p>
+<br/>
+<br/>
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Obecně o cookies</h2>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Naše internetové stránky <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a> používají soubory cookies. Cookie je malý textový soubor, který si váš webový prohlížeč při prohlížení internetových stránek ukládá na pevný disk vašeho koncového zařízení. Soubory cookies vám zjednodušují a zrychlují práci s našimi internetovými stránkami, jelikož si pamatují vaše preference (např. jakou stránku jste konkrétně navštívili, a v jakém jazyce jste stránku navštívili). Soubory cookies také umožňují lepší využití našich internetových stránek a přizpůsobení jejich obsahu vaším zájmům a potřebám.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Cookies můžete blokovat nebo odstranit prostřednictvím svého internetového prohlížeče nebo pomocí softwaru třetí osoby. To však může negativně ovlivnit funkčnost některých částí dané webové stránky.</p>
+<br/>
+<br/>
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Druhy cookies</h2>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">V závislosti na funkci a účelu, za kterými jsou soubory cookies používány, se obvykle dělí takto:</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Nezbytné soubory cookies vám umožňují pohybovat se po našich internetových stránkách <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a> a využívat jejich základních funkcí. Tyto soubory cookies jsou pro využívání našich internetových stránek <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a> nezbytné.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Funkční cookies se používají k zapamatování vašich preferencí na našich internetových stránkách <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a> (např. jakou stránku jste konkrétně navštívili, a v jakém jazyce jste stránku navštívili).</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Analytické a výkonnostní cookies nám umožňují rozeznat a spočítat počet uživatelů a shromažďovat informace o tom, jak jsou naše internetové stránky používány. Tyto informace využíváme k tomu, abychom lépe rozuměli fungování našich internetových stránek a mohli je zlepšovat.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Cookies pro cílenou reklamu a marketing zaznamenávají vaši návštěvu na našich internetových stránkách, jiné internetové stránky, které jste navštívili a odkazy, které jste použili. Tyto informace používáme k zobrazování reklamy, která je přizpůsobena vaším preferencím. Někteří naši partneři umísťují na naše internetové stránky své cookies pro přizpůsobení zobrazované reklamy.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Cookies pro sociální média umožňují sdílení vašich aktivit internetovým stránkám sociálních médií typu Facebook a Twitter.</p>
+<br/>
+<br/>
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Cookies, které používáme my:</h2>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Na našich internetových stránkách <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a> používáme tyto cookies:</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;"><strong>Analytické a výkonnostní cookies<br/>- Universal Analytics - (Google Analytics)</strong></p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;">YSC</p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Tento soubor cookie nastavuje video služba YouTube na stránkách s vloženými videi YouTube za účelem sledování zhlédnutí.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;">_ga</p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Obsahuje jedinečný identifikátor používaný službou Google Analytics k určení, že dva různé požadavky na server patří stejnému uživateli v rámci relací procházení.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;">_gid</p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Obsahuje jedinečný identifikátor používaný službou Google Analytics k určení, že dva různé požadavky na server patří stejnému uživateli v rámci relací procházení.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;">_gat_</p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Používá se službou Google Analytics k omezení rychlosti požadavků (omezení shromažďování dat na webech s vysokou návštěvností).</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Podrobné informace o službě Google Analytics a ochraně soukromí (včetně toho, jak můžete kontrolovat, jaké informace jsou zasílány společnosti Google, Inc.) najdete na adrese:<br/><a href="https://support.google.com/analytics/answer/6004245" target="_blank" style="font-size: 9px; color: white;"><strong>support.google.com/analytics/answer/6004245</strong></a>.</p>
+<br/>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;"><strong>Preferenční cookies</strong></p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;">VISITOR_INFO1_LIVE</p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Soubor cookie, který YouTube nastavuje a který měří vaši šířku pásma a určuje, zda získáte nové nebo staré rozhraní přehrávače.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;">CONSENT</p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Používá Google k ukládání předvoleb souhlasu uživatele.</p>
+<br/>
+<br/>
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Využívání souborů cookies</h2>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Když poprvé navštívíte naši internetovou stránku <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a>, ukáže se vám banner s upozorněním na použití cookies a s vysvětlením co jsou to soubory cookies na naší internetové stránce <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a>. V Nastavení máte možnost Povolit a také Odmítnout použití cookies. Jakmile kliknete na "Potvrdit vybrané", souhlasíte s používáním kategorií souborů cookies a pluginů, které jste vybrali v rozbalovací nabídce "Nastavení cookies". Používání cookies můžete zakázat pomocí svého prohlížeče, ale mějte na paměti, že naše webové stránky <a href="https://www.carboland.cz/" target="_blank">www.carboland.cz</a> již nemusí fungovat správně.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Pokud chcete vymazat cookies uložené ve vašem zařízení a zkonfigurovat svůj webový prohlížeč, aby cookies odmítal, můžete tak učinit obvykle v menu „Možnosti“, „Nástroje“ nebo „Preference“ prohlížeče, který používáte k přístupu na naše stránky. Podrobnější informace o správě souborů cookies u nejběžnějších internetových prohlížečů naleznete zde:</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;"><strong>Internet Explorer</strong></p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;"><a href="https://support.microsoft.com/cs-cz/kb/278835" target="_blank" style="font-size: 9px; color: white;"><strong>support.microsoft.com/cs-cz/kb/278835</strong></a>;</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;"><strong>Mozilla Firefox</strong></p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;"><a href="https://support.mozilla.org/cs/kb/vymazani-cookies" target="_blank" style="font-size: 9px; color: white;"><strong>support.mozilla.org/cs/kb/vymazani-cookies</strong></a>;</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;"><strong>Google Chrome</strong></p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;"><a href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=cs" target="_blank" style="font-size: 9px; color: white;"><strong>support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=cs</strong></a>;</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;"><strong>Opera</strong></p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;"><a href="https://www.opera.com/help/tutorials/security/privacy/" target="_blank" style="font-size: 9px; color: white;"><strong>opera.com/help/tutorials/security/privacy/</strong></a>;</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;"><strong>Safari</strong></p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;"><a href="https://support.apple.com/kb/PH21411?locale=cs_CZ&viewlocale=cs_CZ" target="_blank" style="font-size: 9px; color: white;"><strong>support.apple.com/kb/PH21411?locale=cs_CZ&viewlocale=cs_CZ</strong></a>;</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase; color: #fff;"><strong>Safari pro iPad a iPhone</strong></p>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;"><a href="https://support.apple.com/cs-cz/HT201265" target="_blank" style="font-size: 9px; color: white;"><strong>support.apple.com/cs-cz/HT201265</strong></a>.</p>
+<br/>
+<br/>
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Závěrečné ustanovení</h2>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Budete-li mít dotazy týkající se cookies, kontaktovat nás můžete na e-mailu <a href="mailto:info@carboland.cz">info@carboland.cz</a> nebo na naší adrese uvedené v záhlaví. Jsme Vám k dispozici i na telefonu <a href="tel:+420732272375">+420 732 272 375</a> Carboland s.r.o. je oprávněn Zásady používání souborů cookies kdykoliv jednostranně měnit nebo doplňovat.</p>
+<br/>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Tyto Zásady používání souborů cookies jsou platné a účinné od 30. 12. 2021.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="footer bg-color ptb_100">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="footer-logo mb_20"><img src="./Carboland/Carboland-Logo-footer.png" alt="Carboland s.r.o. | Elegance v každém vláknu." /></div>
+<div class="copyright-part mb_10 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><b>® Carboland s.r.o. 2020 | ELEGANCE V KAŽDÉM VLÁKNU.</b></div>
+<div class="social_icon wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+<ul>
+<li><a href="https://www.facebook.com/Carboland" target="_blank" title="Facebook"><i class="fa fa-facebook border-icon rounded-icon"></i></a></li>
+<li><a href="https://www.instagram.com/carboland.official/" target="_blank" title="Instagram"><i class="fa fa-instagram border-icon rounded-icon"></i></a></li>
+<li><a href="https://www.youtube.com/channel/UCF_UbR3F0y5CRBLSahxBfKw?sub_confirmation=1" target="_blank" title="Youtube"><i class="fa fa-youtube border-icon rounded-icon"></i></a></li>
+</ul>
+<ul>
+<li><a href="https://www.carboland.sk/zasady-pouzivania-suborov-cookie" style="color: white;" title="Slovenština"><strong>SK</strong></a></li>
+<li><a style="color: #ffc107;" title="Čeština"><strong>CZ</strong></a></li>
+<li><a href="https://www.carboland.eu/cookies-policy" style="color: white;" title="Angličtina"><strong>EN</strong></a></li>
+<li><a href="https://www.carboland.ru/politika-ispolzovaniya-faylov-cookie" style="color: white;" title="Ruština"><strong>RU</strong></a></li>
+<li><a href="https://www.carboland.de/cookie-richtlinie" style="color: white;" title="Němčina"><strong>DE</strong></a></li>
+</ul>
+<br/>
+<div class="copyright-part mb_10 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><a href="ochrana-osobnich-udaju" style="color: white; text-transform: uppercase;"><strong>Ochrana osobních údajů</strong></a>&nbsp;|&nbsp;<a href="podminky-pouziti" style="color: white; text-transform: uppercase;"><strong>Podmínky použití</strong></a><br/><a href="zasady-pouzivani-souboru-cookies" style="color: #ffc107; text-transform: uppercase;" target="_blank"><strong>Zásady používání souborů cookies</strong></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="./Carboland/jQuery_v3.1.1.min.js"></script>
+<script src="./Carboland/owl.carousel.min.js"></script>
+<script src="./Carboland/bootstrap.min.js"></script>
+<script src="./Carboland/isotope.pkgd.min.js"></script>
+<script src="./Carboland/letters-type.js"></script>
+<script src="./Carboland/custom.js"></script>
+<script src="./Carboland/menu.js"></script>
+<script src="./Carboland/particles.js"></script>
+<script src="./Carboland/app.js"></script>
+<script src="./Carboland/circle-progress.js"></script>
+<script src="./Carboland/circle-progress-examples.js"></script>
+<script src="./Carboland/js"></script>
+<script src="./Carboland/parallax.js"></script>
+<script src="./Carboland/wow.js"></script>
+<script src="./Carboland/mail.js"></script>
+</body></html>

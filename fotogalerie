@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,0.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,0.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}
+</style><style>.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
+</style><link type="text/css" rel="stylesheet" href="./Carboland/css"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
+</style><style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+<title>Fotogalerie</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="keywords" content="Carboland, Carboland s.r.o., Společnost Carboland, Firma Carboland, Uhlíkové vlákno, Výroba z Karbonu, karbon výroba, Carbon, Fibre, Carbon Fibre, Karbon, Karbonové, Karbonové výrobky, Výrobky z Karbonu, Práce na Karbonu, Karbonové Vlákno, Composit, Kevlar, Aramid, Vacuum infusion, carboland.cz, Carboland CZ, Carboland výroba, Carboland s.r.o., Carboland sro, Česká republika, výroba z karbonu v České republice, uhlíkové vlákno Česká republika, výroba ČR, výroba, uhlík, Carbon určený pro tebe, vysoká odolnost, odolnost výrobku, carbon odolnost" />
+<meta name="distribution" content="global" />
+<meta name="application-name" content="Fotogalerie" />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow, snippet, archive" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+<meta name="publisher" content="Carboland s.r.o." />
+<meta name="og:phone_number" content="+420 732 272 375" />
+<meta name="og:email" content="info@carboland.cz" />
+<meta name="subject" content="Carboland s.r.o." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Fotogalerie" />
+<meta name="twitter:image:src" content="https://www.carboland.cz/Carboland/Carboland.jpg" />
+<meta name="coverage" content="Česká republika" />
+<meta property="og:title" content="Fotogalerie" />
+<meta property="og:url" content="https://www.carboland.cz/fotogalerie" />
+<meta property="og:site_name" content="Fotogalerie" />
+<meta property="og:type" content="website" />
+<meta property="article:tag" content="Carboland, Carboland s.r.o., Společnost Carboland, Firma Carboland, Uhlíkové vlákno, Výroba z Karbonu, karbon výroba, Carbon, Fibre, Carbon Fibre, Karbon, Karbonové, Karbonové výrobky, Výrobky z Karbonu, Práce na Karbonu, Karbonové Vlákno, Composit, Kevlar, Aramid, Vacuum infusion, carboland.cz, Carboland CZ, Carboland výroba, Carboland s.r.o., Carboland sro, Česká republika, výroba z karbonu v České republice, uhlíkové vlákno Česká republika, výroba ČR, výroba, uhlík, Carbon určený pro tebe, vysoká odolnost, odolnost výrobku, carbon odolnost" />
+<meta property="og:image" content="https://www.carboland.cz/Carboland/Carboland.jpg" />
+<meta property="og:latitude" content="49.14654840589657" />
+<meta property="og:longitude" content="17.82768260268157" />
+<meta property="og:street-address" content="Sehradice 217" />
+<meta property="og:locality" content="Sehradice" />
+<meta property="og:postal-code" content="763 23" />
+<meta property="og:country-name" content="Česká republika" />
+<link rel="icon" href="./Carboland/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="./Carboland/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/menu.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/style4.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/style1.css" id="colors" />
+<link rel="stylesheet" type="text/css" href="./Carboland/animation.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/owl.carousel.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="canonical" href="https://www.carboland.cz/fotogalerie" />
+<link rel="alternate" href="https://www.carboland.cz/fotogalerie" hreflang="cs-cz" />
+<link rel="alternate" href="https://www.carboland.de/fotogallerie" hreflang="de-de" />
+<link rel="alternate" href="https://www.carboland.at/fotogallerie" hreflang="de-at" />
+<link rel="alternate" href="https://www.carboland.eu/photogallery" hreflang="en-gb" />
+<link rel="alternate" href="https://www.carboland.ru/fotogalereya" hreflang="ru-ru" />
+<link rel="alternate" href="https://www.carboland.sk/fotogaleria" hreflang="sk-sk" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179574748-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-179574748-1');
+</script>
+</head>
+<body oncopy="return false" oncut="return false" oncontextmenu="return false">
+<script type="text/javascript">
+var cpm = {};
+(function(h,u,b){
+var d=h.getElementsByTagName("script")[0],e=h.createElement("script");
+e.async=true;e.src='./Carboland/cookie-consent.js';
+e.onload=function(){u.cookiehub.load(b);};
+d.parentNode.insertBefore(e,d);
+})(document,window,cpm);
+</script>
+<script type="text/javascript">
+var cpm = {};
+(function(h,u,b){
+var d=h.getElementsByTagName("script")[0],e=h.createElement("script");
+e.async=true;e.src='./Carboland/cookie-consent.js';
+e.onload=function(){u.cookiehub.load(b);};
+d.parentNode.insertBefore(e,d);
+})(document,window,cpm);
+</script>
+<div class="loder" style="display: none;">
+<div class="cssload-container">
+<div class="cssload-circle-1">
+<div class="cssload-circle-2">
+<div class="cssload-circle-3">
+<div class="cssload-circle-4">
+<div class="cssload-circle-5">
+<div class="cssload-circle-6">
+<div class="cssload-circle-7">
+<div class="cssload-circle-8">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper">
+<header id="header" style="background: rgba(0, 0, 0, 0); padding: 20px 0px;">
+<div class="header navbar">
+<div class="container-fluid">
+<div id="navbarCollapse" class="navbar-collapse navbar-right">
+<nav id="menu">
+<ul class="nav">
+<li><a href="index.php#home">DOMŮ</a></li>
+<li><a href="index.php#about">O NÁS</a></li>
+<li><a href="index.php#certificate">CERTIFIKÁT</a></li>
+<li class="active"><a>FOTOGALERIE</a></li>
+<li><a href="https://www.youtube.com/channel/UCF_UbR3F0y5CRBLSahxBfKw?sub_confirmation=1" target="_blank">MÉDIA</a></li>
+<li><a href="index.php#contact">KONTAKT</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<section id="portfolio" class="pt_100">
+<div class="container text-center">
+<div class="heading-part">
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">FOTOGALERIE</h2>
+</div>
+<div class="grid">
+<div class="isotope three-col-work" style="position: relative; height: 989.859px;">
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.2s" style="position: absolute; left: 0px; top: 0px; visibility: hidden; animation-delay: 0.2s; animation-name: none;"> <a href="./Carboland/Fotogalerie/1-1.jpeg"> <img src="./Carboland/Fotogalerie/1.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect VectorDesign Photograp wow fadeInUp" data-wow-delay="0.3s" style="position: absolute; left: 389px; top: 0px; visibility: hidden; animation-delay: 0.3s; animation-name: none;"> <a href="./Carboland/Fotogalerie/2-2.jpeg"> <img src="./Carboland/Fotogalerie/2.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail ">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.4s" style="position: absolute; left: 779px; top: 0px; visibility: hidden; animation-delay: 0.4s; animation-name: none;"> <a href="./Carboland/Fotogalerie/3-3.jpeg"> <img src="./Carboland/Fotogalerie/3.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail ">
+</div>
+</a> </div>
+<div class="grid-item listing-effect VectorDesign" style="position: absolute; left: 0px; top: 299px;"> <a href="./Carboland/Fotogalerie/4-4.jpeg" data-wow-delay="0.5s"> <img src="./Carboland/Fotogalerie/4.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a>
+</div>
+<div class="grid-item listing-effect webdesign VectorDesign wow fadeInUp" data-wow-delay="0.6s" style="position: absolute; left: 389px; top: 299px; visibility: hidden; animation-delay: 0.6s; animation-name: none;"> <a href="./Carboland/Fotogalerie/5-5.jpeg"> <img src="./Carboland/Fotogalerie/5.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail ">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration VectorDes wow fadeInUp" data-wow-delay="0.7s" style="position: absolute; left: 779px; top: 299px; visibility: hidden; animation-delay: 0.7s; animation-name: none;"> <a href="./Carboland/Fotogalerie/6-6.jpeg"> <img src="./Carboland/Fotogalerie/6.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.8s" style="position: absolute; left: 779px; top: 555px; visibility: hidden; animation-delay: 0.8s; animation-name: none;"> <a href="./Carboland/Fotogalerie/7-7.jpeg"> <img src="./Carboland/Fotogalerie/7.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.9s" style="position: absolute; left: 0px; top: 599px; visibility: hidden; animation-delay: 0.9s; animation-name: none;"> <a href="./Carboland/Fotogalerie/8-8.jpeg"> <img src="./Carboland/Fotogalerie/8.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.10s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.4s; animation-name: none;"> <a href="./Carboland/Fotogalerie/9-9.jpeg"> <img src="./Carboland/Fotogalerie/9.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.11s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.4s; animation-name: none;"> <a href="./Carboland/Fotogalerie/10-10.jpeg"> <img src="./Carboland/Fotogalerie/10.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.12s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.5s; animation-name: none;"> <a href="./Carboland/Fotogalerie/11-11.jpeg"> <img src="./Carboland/Fotogalerie/11.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.13s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.5s; animation-name: none;"> <a href="./Carboland/Fotogalerie/12-12.jpeg"> <img src="./Carboland/Fotogalerie/12.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.14s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.6s; animation-name: none;"> <a href="./Carboland/Fotogalerie/13-13.jpeg"> <img src="./Carboland/Fotogalerie/13.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.15s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.6s; animation-name: none;"> <a href="./Carboland/Fotogalerie/14-14.jpeg"> <img src="./Carboland/Fotogalerie/14.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.16s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.7s; animation-name: none;"> <a href="./Carboland/Fotogalerie/15-15.jpeg"> <img src="./Carboland/Fotogalerie/15.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.17s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.7s; animation-name: none;"> <a href="./Carboland/Fotogalerie/16-16.jpeg"> <img src="./Carboland/Fotogalerie/16.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.18s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.8s; animation-name: none;"> <a href="./Carboland/Fotogalerie/17-17.jpeg"> <img src="./Carboland/Fotogalerie/17.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.19s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.7s; animation-name: none;"> <a href="./Carboland/Fotogalerie/18-18.jpeg"> <img src="./Carboland/Fotogalerie/18.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.20s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.8s; animation-name: none;"> <a href="./Carboland/Fotogalerie/19-19.jpeg"> <img src="./Carboland/Fotogalerie/19.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.21s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/20.jpeg"> <img src="./Carboland/Fotogalerie/20.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.22s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/21-21.jpeg"> <img src="./Carboland/Fotogalerie/21.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div><div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.23s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/22-22.jpeg"> <img src="./Carboland/Fotogalerie/22.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.24s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/23-23.jpeg"> <img src="./Carboland/Fotogalerie/23.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.25s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/24-24.jpeg"> <img src="./Carboland/Fotogalerie/24.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.26s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/25-25.jpeg"> <img src="./Carboland/Fotogalerie/25.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.27s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/26-26.jpeg"> <img src="./Carboland/Fotogalerie/26.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.28s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/27-27.jpeg"> <img src="./Carboland/Fotogalerie/27.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.29s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/28-28.jpeg"> <img src="./Carboland/Fotogalerie/28.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.30s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/29-29.jpeg"> <img src="./Carboland/Fotogalerie/29.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.31s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/30-30.jpeg"> <img src="./Carboland/Fotogalerie/30.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.32s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/31-31.jpeg"> <img src="./Carboland/Fotogalerie/31.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.33s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/32-32.jpeg"> <img src="./Carboland/Fotogalerie/32.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.34s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/33-33.jpeg"> <img src="./Carboland/Fotogalerie/33.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.35s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/34-34.jpeg"> <img src="./Carboland/Fotogalerie/34.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.36s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/35-35.jpeg"> <img src="./Carboland/Fotogalerie/35.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.37s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/37-37.jpeg"> <img src="./Carboland/Fotogalerie/37.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.38s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/38-38.jpeg"> <img src="./Carboland/Fotogalerie/38.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.39s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/39-39.jpeg"> <img src="./Carboland/Fotogalerie/39.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.40s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/40-40.jpeg"> <img src="./Carboland/Fotogalerie/40.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.41s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/42-42.jpeg"> <img src="./Carboland/Fotogalerie/42.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.42s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/43-43.jpeg"> <img src="./Carboland/Fotogalerie/43.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.43s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/44-44.jpeg"> <img src="./Carboland/Fotogalerie/44.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.44s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/45-45.jpeg"> <img src="./Carboland/Fotogalerie/45.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.45s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/46-46.jpeg"> <img src="./Carboland/Fotogalerie/46.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.46s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/47-47.jpeg"> <img src="./Carboland/Fotogalerie/47.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.47s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/48-48.jpeg"> <img src="./Carboland/Fotogalerie/48.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.48s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/49-49.jpeg"> <img src="./Carboland/Fotogalerie/49.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.49s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/50-50.jpeg"> <img src="./Carboland/Fotogalerie/50.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.50s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"> <a href="./Carboland/Fotogalerie/51-51.jpeg"> <img src="./Carboland/Fotogalerie/51.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail">
+</div>
+</a> </div>
+</div>
+</div>
+</div>
+</section>
+<div class="footer bg-color ptb_100">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="footer-logo mb_20"><img src="./Carboland/Carboland-Logo-footer.png" alt="Carboland s.r.o. | Elegance v každém vláknu." /></div>
+<div class="copyright-part mb_10 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><b>® Carboland s.r.o. 2020 | ELEGANCE V KAŽDÉM VLÁKNU.</b></div>
+<div class="social_icon wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+<ul>
+<li><a href="https://www.facebook.com/Carboland" target="_blank" title="Facebook"><i class="fa fa-facebook border-icon rounded-icon"></i></a></li>
+<li><a href="https://www.instagram.com/carboland.official/" target="_blank" title="Instagram"><i class="fa fa-instagram border-icon rounded-icon"></i></a></li>
+<li><a href="https://www.youtube.com/channel/UCF_UbR3F0y5CRBLSahxBfKw?sub_confirmation=1" target="_blank" title="Youtube"><i class="fa fa-youtube border-icon rounded-icon"></i></a></li>
+</ul>
+<ul>
+<li><a href="https://www.carboland.sk/fotogaleria" style="color: white;" title="Slovenština"><strong>SK</strong></a></li>
+<li><a style="color: #ffc107;" title="Čeština"><strong>CZ</strong></a></li>
+<li><a href="https://www.carboland.eu/photogallery" style="color: white;" title="Angličtina"><strong>EN</strong></a></li>
+<li><a href="https://www.carboland.ru/fotogalereya" style="color: white;" title="Ruština"><strong>RU</strong></a></li>
+<li><a href="https://www.carboland.de/fotogallerie" style="color: white;" title="Němčina"><strong>DE</strong></a></li>
+</ul>
+<br/>
+<div class="copyright-part mb_10 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><a href="ochrana-osobnich-udaju" style="color: white; text-transform: uppercase;"><strong>Ochrana osobních údajů</strong></a>&nbsp;|&nbsp;<a href="podminky-pouziti" style="color: white; text-transform: uppercase;"><strong>Podmínky použití</strong></a><br/><a href="zasady-pouzivani-souboru-cookies" style="color: white; text-transform: uppercase;" target="_blank"><strong>Zásady používání souborů cookies</strong></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="./Carboland/jQuery_v3.1.1.min.js"></script>
+<script src="./Carboland/owl.carousel.min.js"></script>
+<script src="./Carboland/bootstrap.min.js"></script>
+<script src="./Carboland/isotope.pkgd.min.js"></script>
+<script src="./Carboland/letters-type.js"></script>
+<script src="./Carboland/custom.js"></script>
+<script src="./Carboland/menu.js"></script>
+<script src="./Carboland/particles.js"></script>
+<script src="./Carboland/app.js"></script>
+<script src="./Carboland/circle-progress.js"></script>
+<script src="./Carboland/circle-progress-examples.js"></script>
+<script src="./Carboland/js"></script>
+<script src="./Carboland/parallax.js"></script>
+<script src="./Carboland/wow.js"></script>
+<script src="./Carboland/mail.js"></script>
+</body></html>

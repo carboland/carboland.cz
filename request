@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,0.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,0.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}
+</style><style>.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
+</style><link type="text/css" rel="stylesheet" href="./Carboland/css"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
+</style><style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+<title>Carboland s.r.o. | Elegance v každém vláknu.</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Naše více než 10 leté zkušenosti se promítají do každého vyrobeného dílu. Díky tomu odvádíme práci, na jejíž konci je vždy každý díl mistrovsky vyroben i opracován. Známe dokonale materiál, se kterým pracujeme, takže umíme vyrobit extrémně pevné, ale i jedinečně elegantní díly karbonu, přesně podle přání klienta. Právě v tom, do jaké míry umíme přizpůsobit vzhled i vlastnosti uhlíkových komponentů se velmi odlišujeme." />
+<meta name="keywords" content="Carboland, Carboland s.r.o., Společnost Carboland, Firma Carboland, Uhlíkové vlákno, Výroba z Karbonu, karbon výroba, Carbon, Fibre, Carbon Fibre, Karbon, Karbonové, Karbonové výrobky, Výrobky z Karbonu, Práce na Karbonu, Karbonové Vlákno, Composit, Kevlar, Aramid, Vacuum infusion, carboland.cz, Carboland CZ, Carboland výroba, Carboland s.r.o., Carboland sro, Česká republika, výroba z karbonu v České republice, uhlíkové vlákno Česká republika, výroba ČR, výroba, uhlík, Carbon určený pro tebe, vysoká odolnost, odolnost výrobku, carbon odolnost" />
+<meta name="distribution" content="global" />
+<meta name="application-name" content="Carboland s.r.o. | Elegance v každém vláknu." />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow, snippet, archive" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+<meta name="publisher" content="Carboland s.r.o." />
+<meta name="og:phone_number" content="+420 732 272 375" />
+<meta name="og:email" content="info@carboland.cz" />
+<meta name="subject" content="Carboland s.r.o." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Carboland s.r.o. | Elegance v každém vláknu." />
+<meta name="twitter:description" content="Naše více než 10 leté zkušenosti se promítají do každého vyrobeného dílu. Díky tomu odvádíme práci, na jejíž konci je vždy každý díl mistrovsky vyroben i opracován. Známe dokonale materiál, se kterým pracujeme, takže umíme vyrobit extrémně pevné, ale i jedinečně elegantní díly karbonu, přesně podle přání klienta. Právě v tom, do jaké míry umíme přizpůsobit vzhled i vlastnosti uhlíkových komponentů se velmi odlišujeme." />
+<meta name="twitter:image:src" content="https://www.carboland.cz/Carboland/Carboland.jpg" />
+<meta name="coverage" content="Česká republika" />
+<meta property="og:title" content="Carboland s.r.o. | Elegance v každém vláknu." />
+<meta property="og:url" content="https://www.carboland.cz/" />
+<meta property="og:site_name" content="Carboland s.r.o. | Elegance v každém vláknu." />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Naše více než 10 leté zkušenosti se promítají do každého vyrobeného dílu. Díky tomu odvádíme práci, na jejíž konci je vždy každý díl mistrovsky vyroben i opracován. Známe dokonale materiál, se kterým pracujeme, takže umíme vyrobit extrémně pevné, ale i jedinečně elegantní díly karbonu, přesně podle přání klienta. Právě v tom, do jaké míry umíme přizpůsobit vzhled i vlastnosti uhlíkových komponentů se velmi odlišujeme." />
+<meta property="article:tag" content="Carboland, Carboland s.r.o., Společnost Carboland, Firma Carboland, Uhlíkové vlákno, Výroba z Karbonu, karbon výroba, Carbon, Fibre, Carbon Fibre, Karbon, Karbonové, Karbonové výrobky, Výrobky z Karbonu, Práce na Karbonu, Karbonové Vlákno, Composit, Kevlar, Aramid, Vacuum infusion, carboland.cz, Carboland CZ, Carboland výroba, Carboland s.r.o., Carboland sro, Česká republika, výroba z karbonu v České republice, uhlíkové vlákno Česká republika, výroba ČR, výroba, uhlík, Carbon určený pro tebe, vysoká odolnost, odolnost výrobku, carbon odolnost" />
+<meta property="og:image" content="https://www.carboland.cz/Carboland/Carboland.jpg" />
+<meta property="og:latitude" content="49.14654840589657" />
+<meta property="og:longitude" content="17.82768260268157" />
+<meta property="og:street-address" content="Sehradice 217" />
+<meta property="og:locality" content="Sehradice" />
+<meta property="og:postal-code" content="763 23" />
+<meta property="og:country-name" content="Česká republika" />
+<link rel="icon" href="./Carboland/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="./Carboland/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/menu.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/style.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/style1.css" id="colors" />
+<link rel="stylesheet" type="text/css" href="./Carboland/style3.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/animation.css" />
+<link rel="stylesheet" type="text/css" href="./Carboland/owl.carousel.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="canonical" href="https://www.carboland.cz/" />
+<link rel="alternate" href="https://www.carboland.cz/" hreflang="cs-cz" />
+<link rel="alternate" href="https://www.carboland.de/" hreflang="de-de" />
+<link rel="alternate" href="https://www.carboland.at/" hreflang="de-at" />
+<link rel="alternate" href="https://www.carboland.eu/" hreflang="en-gb" />
+<link rel="alternate" href="https://www.carboland.ru/" hreflang="ru-ru" />
+<link rel="alternate" href="https://www.carboland.sk/" hreflang="sk-sk" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179574748-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-179574748-1');
+</script>
+</head>
+<body id="home" oncopy="return false" oncut="return false" oncontextmenu="return false">
+<script type="text/javascript">
+var cpm = {};
+(function(h,u,b){
+var d=h.getElementsByTagName("script")[0],e=h.createElement("script");
+e.async=true;e.src='./Carboland/cookie-consent.js';
+e.onload=function(){u.cookiehub.load(b);};
+d.parentNode.insertBefore(e,d);
+})(document,window,cpm);
+</script>
+<div class="loder" style="display: none;">
+<div class="cssload-container">
+<div class="cssload-circle-1">
+<div class="cssload-circle-2">
+<div class="cssload-circle-3">
+<div class="cssload-circle-4">
+<div class="cssload-circle-5">
+<div class="cssload-circle-6">
+<div class="cssload-circle-7">
+<div class="cssload-circle-8">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper">
+<header id="header" style="background: rgba(0, 0, 0, 0); padding: 20px 0px;">
+<div class="header navbar">
+<div class="container-fluid">
+<div id="navbarCollapse" class="navbar-collapse navbar-right">
+<nav id="menu">
+<ul class="nav">
+<li class="active"><a href="#home">DOMŮ</a></li>
+<li><a href="#about">O NÁS</a></li>
+<li><a href="#certificate">CERTIFIKÁT</a></li>
+<li><a href="#portfolio">FOTOGALERIE</a></li>
+<li><a href="https://www.youtube.com/channel/UCF_UbR3F0y5CRBLSahxBfKw?sub_confirmation=1" target="_blank">MÉDIA</a></li>
+<li><a href="#contact">KONTAKT</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<div class="banner2 bg-color">
+<div id="particles-js"><canvas class="particles-js-canvas-el" width="1583" height="740" style="width: 100%; height: 100%;"></canvas></div>
+<div class="banner-detail">
+<div class="cd-intro">
+<h1 class="cd-headline letters type">
+<span class="cd-words-wrapper waiting">
+<b class="is-hidden" style="opacity: 1;"><i class="out">E</i><i class="out">L</i><i class="out">E</i><i class="out">G</i><i class="out">A</i><i class="out">N</i><i class="out">C</i><i class="out">E</i><i class="out"> </i><i class="out">V</i><i class="out"> </i><i class="out">K</i><i class="out">A</i><i class="out">Ž</i><i class="out">D</i><i class="out">É</i><i class="out">M</i><i class="out"> </i><i class="out">V</i><i class="out">L</i><i class="out">Á</i><i class="out">K</i><i class="out">N</i><i class="out">U</i></b>
+<b style="opacity: 1;" class="is-hidden"><i class="out"> </i><i class="out">C</i><i class="out">a</i><i class="out">r</i><i class="out">b</i><i class="out">o</i><i class="out">l</i><i class="out">a</i><i class="out">n</i><i class="out">d</i><i class="out">®</i><i class="out"> </i><i class="out">s</i><i class="out">.</i><i class="out">r</i><i class="out">.</i><i class="out">o</i><i class="out">.</i></b>
+<b style="opacity: 1;" class="is-visible"><i class="in">D</i><i class="in">E</i><i class="in">S</i><i class="in">I</i><i class="in">G</i><i class="in">N</i><i class="in"> </i><i class="in">N</i><i class="in">A</i><i class="in"> </i><i class="in">M</i><i class="in">Í</i><i class="in">R</i><i class="in">U</i></b>
+</span>
+</h1>
+<button class="custom-btn custom-btns light mtb_30 wow fadeInUp mt_30" data-wow-delay="0.2s" type="button" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><li><a href="#portfolio">NAŠE PRÁCE</a></li></button>
+<li>
+<a href="https://www.carboland.sk/" style="color: white;" title="Slovenština"><strong>SK</strong></a>
+<a style="color: #ffc107;" title="Čeština"><strong>CZ</strong></a>
+<a href="https://www.carboland.eu/" style="color: white;" title="Angličtina"><strong>EN</strong></a>
+<a href="https://www.carboland.ru/" style="color: white;" title="Ruština"><strong>RU</strong></a>
+<a href="https://www.carboland.de/" style="color: white;" title="Němčina"><strong>DE</strong></a>
+</li>
+</div>
+</div>
+</div>
+<section id="about" class="ptb_100">
+<div class="about">
+<div class="container">
+<div class="about-inner">
+<div class="row">
+<div class="col-md-7">
+<div class="about-text">
+<div class="about-heading-wrap">
+<iframe width="350" height="320" src="https://www.youtube.com/embed/Vj8SCL3Eluk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<h2 class="about-heading mb_40 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">O NÁS</h2>
+</div>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Naše více než 10 leté zkušenosti se promítají do každého vyrobeného dílu. Díky tomu odvádíme práci, na jejíž konci je vždy každý díl mistrovsky vyroben i opracován. Známe dokonale materiál, se kterým pracujeme, takže umíme vyrobit extrémně pevné, ale i jedinečně elegantní díly karbonu, přesně podle přání klienta. Právě v tom, do jaké míry umíme přizpůsobit vzhled i vlastnosti uhlíkových komponentů se velmi odlišujeme.</p>
+<button class="custom-btn custom-btns light mtb_30 wow fadeInUp" data-wow-delay="0.4s" type="button" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;"><li><a href="#portfolio">FOTOGALERIE</a></li></button>
+</div>
+</div>
+<div class="col-md-5 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+<figure><img src="./Carboland/Carboland.jpg" alt="Carboland s.r.o. | Elegance v každém vláknu." /></figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="container pb_100">
+<div class="row">
+<div class="col-md-6 col-md-offset-3 text-center">
+<div class="heading-part">
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">CO DĚLÁME</h2>
+<p class=" wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Zabýváme se výrobou sériových dílů pro různé průmyslové odvětví.</p>
+</div>
+</div>
+</div>
+<div class="row text-left">
+<div class="col-sm-6 mt_80">
+<div class="feature-i-left wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+<div class="icon-right"><i class="icon ion-android-color-palette"></i></div>
+<h4 class="mb_10 title">NAŠE VÝROBA</h4>
+<p style="text-transform: uppercase;">Naše výroba vyrábí díly technologii vakuové infuze VAI (Vaccum Assisted Infusion) pokud jste o ní doposud neslyšeli, tak se jedná o výrobu kompozitních dílů pomocí podtlaku. Do připravené formy se položí určená skladba vláken, dále se potáhne plachetkou ze zpod, která vysaje veškerý obsah vzduchu a utvoří se vakuum. Jakmile je díl takto připravený, začne přes napouštěcí ventil proudit do formy pryskyřice. Díl se nechá vytvrdit a tím proces výroby končí. S touto technologií je možné dosáhnout velmi kvalitního laminátu s poměrem vláken až 70%. Pro laiky to znamená, že díl bude pevný a lehký. Vyznačuje se jako nejsložitější proces výrobě kompozitních materiálů.</p>
+</div>
+</div>
+<div class="col-sm-6 mt_80">
+<div class="feature-i-left wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+<div class="icon-right"><i class="icon ion-bookmark"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Kontaktní laminace</h4>
+<p style="text-transform: uppercase;">Tkanina se skládá do formy a zároveň se prosycuje pryskyřicí. Pro dosažení kvalitnějšího výrobku a optimálního prosycení tkaniny používáme vakuuové odsávání.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container pb_100">
+<div class="row">
+<div class="col-md-6 col-md-offset-3 text-center">
+<div class="heading-part">
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">MATERIÁLY</h2>
+<p class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none; text-transform: uppercase;">Používané tkaniny pro výrobu dílů:</p>
+</div>
+</div>
+</div>
+<div class="row text-left">
+<div class="col-sm-6 mt_80">
+<div class="feature-i-left wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+<div class="icon-right"><i class="icon ion-android-color-palette"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Uhlíkové (Karbonové) tkaniny</h4>
+<p style="text-transform: uppercase;">Pro naše výrobky používáme vysoce kvalitní tkaniny. Výrobky z tohoto materiálu se vyznačují vysokou pevností a velmi nízkou hmotností. Druh vazby vláken v tkanině určuje konečný vzhled výrobku a také má vliv na jeho fyzikální vlastnosti.</p>
+</div>
+</div>
+<div class="col-sm-6 mt_80">
+<div class="feature-i-left wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+<div class="icon-right"><i class="icon ion-bookmark"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Aramidové (Kevlarové) tkaniny</h4>
+<p style="text-transform: uppercase;">Aramidová vlákna jsou zvláštní skupinou syntetických vláken, která jsou vzhledem k jejich chemickým vlastnostem obzvláště pevná a odolná vůči vysokým teplotám. Aramid zajišťuje velmi vysokou odolnost proti nárazům, oděru a je mnohem odolnější vůči zlomení. Aramidovou tkaninu máme k dispozici ve vazebných vzorech:</p>
+<br/>
+<p style="text-transform: uppercase;">- Kepr</p>
+<p style="text-transform: uppercase;">- Satén</p>
+</div>
+</div>
+<div class="col-sm-6 mt_80">
+<div class="feature-i-left wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+<div class="icon-right"><i class="ion ion-filing"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Hybridní (Karbon-Kevlar) tkaniny</h4>
+<p style="text-transform: uppercase;">Tento materiál spojuje vlastnosti dvou tkanin - uhlíkového vlákna propleteného s kevlarovým vláknem. Karbon vyniká vysokou úrovní tuhosti a pevnosti, zatímco Aramid poskytuje odolnost proti nárazu, oděru a zlomění. Hybridní tkanina se používá pro výrobky do náročných podmínek.</p>
+</div>
+</div>
+<div class="col-sm-6 mt_80">
+<div class="feature-i-left wow fadeInUp" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
+<div class="icon-right"><i class="icon ion-settings"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Barevné tkaniny</h4>
+<p style="text-transform: uppercase;">Tyto speciální tkaniny jsou vyrobeny spojením uhlíkového vlákna a barevného polyesterového vlákna. Barevné tkaniny dodají každému dílu úžasný a jedinečný vzhled. Barevné tkaniny jsou pouze ve vazbě Kepr a třech různých barevných variantách:</p>
+<br/>
+<p style="text-transform: uppercase;">- Modrý Carbon</p>
+<p style="text-transform: uppercase;">- Červený Carbon</p>
+<p style="text-transform: uppercase;">- Zelený Carbon</p>
+</div>
+</div>
+</div>
+</div>
+<section class="text-center parallax ptb_100" style="width: 1583px;">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 col-sm-12 ptb_50">
+<div class="story_detail">
+<h2 class="main_title light mb_20 wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none; font-size: 41px;">SPOLUPRÁCE?</h2>
+<p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none; text-transform: uppercase;">Rádi se s Vámi dohodneme na spolupráci.</p>
+</div>
+<button class="custom-btn custom-btns light mt_20 wow fadeInUp" data-wow-delay="0.3s" type="button" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;"><li><a href="#contact">POJĎME NA TO!</li></button>
+</div>
+</div>
+</div>
+</section>
+<section id="certificate" class="pt_100">
+<div class="container text-center">
+<div class="heading-part">
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">CERTIFIKÁT</h2>
+</div>
+<div class="grid">
+<div class="isotope three-col-work" style="position: relative; height: 989.859px;">
+<div class="grid-item listing-effect VectorDesign Photograp wow fadeInUp" data-wow-delay="0.3s" style="position: absolute; left: 389px; top: 0px; visibility: hidden; animation-delay: 0.3s; animation-name: none;"><a href="./Carboland/Certifikat/1032-2021-SC-Q-Carboland.png"><img src="./Carboland/Certifikat/1032-2021-SC-Q-Carboland.png" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a> </div>
+<div class="grid-item listing-effect VectorDesign Photograp wow fadeInUp" data-wow-delay="0.3s" style="position: absolute; left: 0px; top: 0px; visibility: hidden; animation-delay: 0.3s; animation-name: none;"><a href="./Carboland/Certifikat/ISO-9001-cernobila.png"><img src="./Carboland/Certifikat/ISO-9001-cernobila.png" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a> </div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.2s" style="position: absolute; left: 0px; top: 0px; visibility: hidden; animation-delay: 0.2s; animation-name: none;"><a href="./Carboland/Certifikat/1032-2021-SC-Q-Carboland-anglicky.png"><img src="./Carboland/Certifikat/1032-2021-SC-Q-Carboland-anglicky.png" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a> </div>
+<div class="grid-item listing-effect VectorDesign Photograp wow fadeInUp" data-wow-delay="0.3s" style="position: absolute; left: 0px; top: 0px; visibility: hidden; animation-delay: 0.3s; animation-name: none;"><a href="./Carboland/Certifikat/ISO-9001.png"><img src="./Carboland/Certifikat/ISO-9001.png" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a> </div>
+</div>
+</div>
+</div>
+</section>
+<section id="portfolio" class="pt_100">
+<div class="container text-center">
+<div class="heading-part">
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">FOTOGALERIE</h2>
+</div>
+<div class="grid">
+<div class="isotope three-col-work" style="position: relative; height: 989.859px;">
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.2s" style="position: absolute; left: 0px; top: 0px; visibility: hidden; animation-delay: 0.2s; animation-name: none;"><a href="./Carboland/Fotografie/1-1.jpeg"><img src="./Carboland/Fotografie/1.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+<div class="grid-item listing-effect VectorDesign Photograp wow fadeInUp" data-wow-delay="0.3s" style="position: absolute; left: 389px; top: 0px; visibility: hidden; animation-delay: 0.3s; animation-name: none;"><a href="./Carboland/Fotografie/2-2.jpeg"><img src="./Carboland/Fotografie/2.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.4s" style="position: absolute; left: 779px; top: 0px; visibility: hidden; animation-delay: 0.4s; animation-name: none;"><a href="./Carboland/Fotografie/3-3.jpeg"><img src="./Carboland/Fotografie/3.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+<div class="grid-item listing-effect VectorDesign" style="position: absolute; left: 0px; top: 299px;"><a href="./Carboland/Fotografie/4.jpeg" data-wow-delay="0.5s"><img src="./Carboland/Fotografie/4-4.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+<div class="grid-item listing-effect webdesign VectorDesign wow fadeInUp" data-wow-delay="0.6s" style="position: absolute; left: 389px; top: 299px; visibility: hidden; animation-delay: 0.6s; animation-name: none;"><a href="./Carboland/Fotografie/5-5.jpeg"><img src="./Carboland/Fotografie/5.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+<div class="grid-item listing-effect illustration VectorDes wow fadeInUp" data-wow-delay="0.7s" style="position: absolute; left: 779px; top: 299px; visibility: hidden; animation-delay: 0.7s; animation-name: none;"><a href="./Carboland/Fotografie/6-6.jpeg"><img src="./Carboland/Fotografie/6.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.8s" style="position: absolute; left: 779px; top: 555px; visibility: hidden; animation-delay: 0.8s; animation-name: none;"><a href="./Carboland/Fotografie/7-7.jpeg"><img src="./Carboland/Fotografie/7.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.9s" style="position: absolute; left: 0px; top: 599px; visibility: hidden; animation-delay: 0.9s; animation-name: none;"><a href="./Carboland/Fotografie/8-8.jpeg"><img src="./Carboland/Fotografie/8.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+<div class="grid-item listing-effect illustration webdesign wow fadeInUp" data-wow-delay="0.10s" style="position: absolute; left: 389px; top: 689px; visibility: hidden; animation-delay: 0.1s; animation-name: none;"><a href="./Carboland/Fotografie/9-9.jpeg"><img src="./Carboland/Fotografie/9.jpeg" alt="Carboland s.r.o. | Elegance v každém vláknu." />
+<div class="work-detail"></div>
+</a></div>
+</div>
+<button class="custom-btn custom-btns light mtb_30 wow fadeInUp" data-wow-delay="0.4s" type="button" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;"><li><a href="fotogalerie">PŘEJÍT DO FOTOGALERIE</a></li></button>
+</div>
+</div>
+</section>
+<section id="contact" class="ptb_100">
+<div class="container">
+<div class="row text-left">
+<div class="col-md-4 col-sm-6 mt_30 wow fadeInUp" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
+<div class="feature-i-left">
+<div class="icon-right"><i class="icon fa fa-bank"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Bankovní spojení |CZK-Kč|</h4>
+<div class="email"><a target="_top" style="text-transform: uppercase;">č.ú.  115-6857270277/0100<br/>IBAN: CZ25 0100 0001 1568 5727 0277<br/>BIC / SWIFT kód: KOMBCZPPXXX<br/><b style="color: #a5a4a4;">Pouze platby v měně CZK / Kč!</b></a></div>
+</div>
+<br/>
+<br/>
+<div class="feature-i-left">
+<div class="icon-right"><i class="icon fa fa-bank"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Bankovní spojení |EUR|</h4>
+<div class="email"><a target="_top" style="text-transform: uppercase;">č.ú.  115-7553830217/0100<br/>IBAN: CZ88 0100 0001 1575 5383 0217<br/>BIC / SWIFT kód: KOMBCZPPXXX<br/><b style="color: #a5a4a4;">Pouze platby v měně EURO!</b></a></div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 mt_30 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+<div class="feature-i-left">
+<div class="icon-right"><i class="fa fa-compass"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Sídlíme</h4>
+<div class="email"><a href="https://www.google.cz/maps/place/Sehradice+217,+763+23+Sehradice/@49.1465221,17.8254644,17z/data=!3m1!4b1!4m5!3m4!1s0x4713706cec52a5b3:0xaff658778cd89a17!8m2!3d49.1465186!4d17.8276531?hl=cs" target="_blank" style="text-transform: uppercase;">Sehradice 217<br/>763 23 Sehradice<br/>Česká republika</a></div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 mt_30 wow fadeInUp" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
+<div class="feature-i-left">
+<div class="icon-right"><i class="icon fa fa-building"></i></div>
+<h4 class="mb_10 title">CARBOLAND s.r.o.</h4>
+<div class="email"><a href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1002958&typ=UPLNY" target="_blank" target="_top" style="text-transform: uppercase;">Michal Smolka<br/>IČO: 06818137<br/>DIČ: CZ06818137<br/>C 104458 Krajský soud v Brně<br/>Plátce DPH</a></div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 mt_30 wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+<div class="feature-i-left">
+<div class="icon-right"><i class="icon fa fa-envelope"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Napište nám</h4>
+<div class="email"><a href="mailto:info@carboland.cz" target="_top" style="text-transform: uppercase;">info@carboland.cz</a></div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 mt_30 wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+<div class="feature-i-left">
+<div class="icon-right"><i class="icon fa fa-phone"></i></div>
+<h4 class="mb_10 title" style="text-transform: uppercase;">Zavolejte nám</h4>
+<div class="email"><a href="tel:+420732272375" target="_top" style="text-transform: uppercase;">+420 732 272 375</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="pb_100">
+<div class="container">
+<div class="row">
+<div class="col-md-6 mb_50 col-md-offset-3 text-center">
+<div class="heading-part">
+<h2 class="main_title mb_20 wow fadeInUp" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">BUĎ S NÁMI V KONTAKTU</h2>
+</div>
+</div>
+</div>
+<p style="color: green; font-weight: 600; font-size: 25px; text-align: center; text-transform: uppercase;">Vaše zpráva byla úspěšně odeslána!</p>
+<div class="row">
+<div class="contact-form mb_50 wow fadeInUp" data-wow-delay="0.7s" style="visibility: hidden; animation-delay: 0.7s; animation-name: none;">
+<form method="post" action="poslat.php">
+<div class="col-md-4 col-xs-12">
+<input class="full-with-form mt_30" name="jmeno" accesskey="j" type="text" placeholder="JMÉNO A PŘÍJMENÍ" data-required="true" required=""/>
+</div>
+<div class="col-md-4 col-xs-12">
+<input class="full-with-form mt_30" name="email" accesskey="e" type="text" placeholder="E-MAILOVÁ ADRESA" data-required="true" required=""/>
+</div>
+<div class="col-md-4 col-xs-12">
+<input class="full-with-form mt_30" name="telefon" accesskey="t" type="text" placeholder="TELEFONNÍ ČÍSLO" maxlength="13" data-required="true" required=""/>
+</div>
+<div class="col-xs-12">
+<input class="full-with-form mt_30" name="predmet" accesskey="p" type="text" placeholder="PŘEDMĚT" data-required="true" required=""/>
+</div>
+<div class="col-xs-12">
+<textarea class="full-with-form mt_30" name="text" accesskey="t" placeholder="ZPRÁVA" data-required="true" required=""/></textarea>
+</div>
+<div class="col-xs-12">
+<br/>
+<label style="color: grey; text-transform: uppercase;">Odesláním kontaktního formuláře tlačítkem "ODESLAT"<br/>vyjadřujete souhlas s&nbsp;<a href="podminky-pouziti" style="color: white;">podmínkami použití webu</a> a se zpracováním&nbsp;<a href="ochrana-osobnich-udaju" style="color: white;">ochrany osobních údajů</a>.</label>
+<br/>
+<input class="custom-btn custom-btns light mt_30" type="submit" value="ODESLAT"/>
+</div>
+</form>
+<div id="contact_results" class="mt_40"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="footer bg-color ptb_100">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="footer-logo mb_20"><img src="./Carboland/Carboland-Logo-footer.png" alt="Carboland s.r.o. | Elegance v každém vláknu." /></div>
+<div class="copyright-part mb_10 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><b>® Carboland s.r.o. 2020 | ELEGANCE V KAŽDÉM VLÁKNU.</b></div>
+<div class="social_icon wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+<ul>
+<li><a href="https://www.facebook.com/Carboland" target="_blank" title="Facebook"><i class="fa fa-facebook border-icon rounded-icon"></i></a></li>
+<li><a href="https://www.instagram.com/carboland.official/" target="_blank" title="Instagram"><i class="fa fa-instagram border-icon rounded-icon"></i></a></li>
+<li><a href="https://www.youtube.com/channel/UCF_UbR3F0y5CRBLSahxBfKw?sub_confirmation=1" target="_blank" title="Youtube"><i class="fa fa-youtube border-icon rounded-icon"></i></a></li>
+</ul>
+<ul>
+<li><a href="https://www.carboland.sk/" style="color: white;" title="Slovenština"><strong>SK</strong></a></li>
+<li><a style="color: #ffc107;" title="Čeština"><strong>CZ</strong></a></li>
+<li><a href="https://www.carboland.eu/" style="color: white;" title="Angličtina"><strong>EN</strong></a></li>
+<li><a href="https://www.carboland.ru/" style="color: white;" title="Ruština"><strong>RU</strong></a></li>
+<li><a href="https://www.carboland.de/" style="color: white;" title="Němčina"><strong>DE</strong></a></li>
+</ul>
+<br/>
+<div class="copyright-part mb_10 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><a href="ochrana-osobnich-udaju" style="color: white; text-transform: uppercase;"><strong>Ochrana osobních údajů</strong></a>&nbsp;|&nbsp;<a href="podminky-pouziti" style="color: white; text-transform: uppercase;"><strong>Podmínky použití</strong></a><br/><a href="zasady-pouzivani-souboru-cookies" style="color: white; text-transform: uppercase;" target="_blank"><strong>Zásady používání souborů cookies</strong></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="./Carboland/jQuery_v3.1.1.min.js"></script>
+<script src="./Carboland/owl.carousel.min.js"></script>
+<script src="./Carboland/bootstrap.min.js"></script>
+<script src="./Carboland/isotope.pkgd.min.js"></script>
+<script src="./Carboland/letters-type.js"></script>
+<script src="./Carboland/custom.js"></script>
+<script src="./Carboland/menu.js"></script>
+<script src="./Carboland/particles.js"></script>
+<script src="./Carboland/app.js"></script>
+<script src="./Carboland/circle-progress.js"></script>
+<script src="./Carboland/circle-progress-examples.js"></script>
+<script src="./Carboland/js"></script>
+<script src="./Carboland/parallax.js"></script>
+<script src="./Carboland/wow.js"></script>
+<script src="./Carboland/mail.js"></script>
+</body></html>
